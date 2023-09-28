@@ -1,0 +1,146 @@
+<html>
+<head>
+<link href="button.css" rel="stylesheet">
+<title>registration</title>
+<style>
+
+table{font-size:40pt;
+margin-left:50px;
+color:#0d0d0d;
+border-style:inset;
+	border-color:orange;
+	border-width:7px;
+	font-size:22pt;
+margin-left:50px;
+margin-top:-250px;
+}
+
+body
+{
+background-image:url("ks.jpg");
+background-size:1650px;
+background-repeat:no-repeat;
+background-attachment:fixed;
+text-align:fixed
+}
+sup{
+color:red;
+}
+.t{
+border-color:blue; 
+border-radius:21px;
+background-color: #e6e6fa;
+}
+
+</style>
+
+</head>
+
+<body>
+<center><h1 style="color:red"> <u>REGISTRATION </style> </h1></u>
+<br/><br/>
+
+<table>
+ <form method="post" action="conn.php" >
+<tr>
+<td> E-mail id  <sup>*</sup> </td>
+<td><input type="email" class="t" name="Email" placeholder="eg:t@gmail.com" required></td>
+</tr>
+<br />
+
+<tr>
+<td> Name  <sup>*</sup></td>
+<td><input type="text" class="t" name="Name" placeholder="Enter your name" required></td>
+</tr>
+<br />
+
+<tr>
+<td> Country </td>
+<td><select name ="Country" class="t">
+<option value="INDIA">INDIA </option>
+</select>
+</td>
+</tr>
+<br />
+
+<tr>
+<td> State </td>
+<td><select name ="State" class="t">
+<option value="KARNATAKA">KARNATAKA</option>
+</select>
+</td>
+</tr>
+</br>
+
+<tr>
+<td> District <sup>*</sup></td>
+<td><input type="text" class="t" name="City" placeholder="mention your district" required></td>
+</tr>
+<br />
+
+<tr>
+<td>Location <sup>*</sup> </td>
+<td><input type="text" class="t" name="Location" placeholder="mention your location" required></td>
+</tr>
+<br />
+
+<tr>
+<td>Pincode<sup>*</sup></td>
+<td><input type="text" class="t" name="Pincode" pattern="[0-9]{6}" placeholder="your pin code" required></td>
+</tr>
+<br />
+
+<tr>
+<td>Bloodgroup<sup>*</sup></td>
+<td><input type="text" class="t" name="Bloodgroup" placeholder="eg.o+ve" required></td>
+</tr>
+<br />
+
+<tr>
+<td>Age<sup>*</sup></td>
+<td><input type="number" class="t" name="Age" placeholder="enter valid age" required></td>
+</tr>
+<br />
+
+<tr>
+<td>Date of last donated<sup>*</sup></td>
+<td><input type="date" id="date" name="Lastdonateddate" class="t" max="2021-08-17" required></td>
+</tr>
+<br />
+
+<tr>
+<td>Gender<sup>*</sup></td>
+<td><input type="radio"name="Gender"value="M">Male</label></td>
+<td><input type="radio"name="Gender" value="F">Female</label></td>
+</tr>
+<br />
+
+<tr>
+<td>Mobile no<sup>*</sup></td>
+<td><input type="text" class="t" name="Mobileno" value="" placeholder="your number" pattern="[0-9]{10}"required></td>
+</tr>
+</br>
+
+<tr>
+<td>Security key<sup>*</sup></td>
+<td><input type="number" class="t" name="Securitykey" placeholder="password" value="only eight digits" pattern="[0-9]{6}"required></td>
+</tr>
+
+
+<tr>
+<td align="center"> <input type="submit" class="button" value="Submit"> </td>
+<td align="right"><input type="reset" class="button" value="reset"></td>
+</tr> 
+</table>
+</form>
+<br />
+<br />
+<a href="main1.html"><input type="button" class="button" value="back" </input> </a href>
+</center>
+</body>
+</html>
+
+
+
+
+

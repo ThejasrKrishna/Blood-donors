@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+	<link href="button.css" rel="stylesheet">
+	<style>
+.topnav {
+  overflow: hidden;
+  background-color:transparent;
+  topnav:fixed;
+}
+
+.topnav a {
+  float: left;
+  border:10px;
+  color: black;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 22px;
+  flaot: left;
+border-right: 2px solid black;
+}
+
+.topnav a:hover {
+  background-color:#DC404B;
+  color:black;
+}
+
+.topnav a.active {
+  background-color:#DC404B;
+  color:white;
+}
+
+	</style>
+  </head>
+  <body>
+	<div class="topnav">
+  <a  href="MAIN1.html">HOME</a>
+  <a href="donars day.html">DONAR'S DAY</a>
+  <a href="tips2.html">TIPS ON BLOOD DONATING</a>
+  <a href ="wcdblood.html">WHO CAN DONATE BLOOD </a> 
+  <a href="1.html">FIND DONAR</a>
+  <a href="bloodbank.html">BLOOD BANK</a>
+   <a href="contact.html">CONTACT US</a>
+	<a class="active"href="#">FEED BACK</a>
+</div>
+  <form method="post" action="feedbackphp.php" >
+  <div class="contact-form">
+    <h1>FEEDBACK</h1>
+    <div class="txtb">
+      <label>Name </label>
+      <input type="text" name="Name" required value="">
+    </div>
+
+    <div class="txtb">
+      <label>Feedback </label>
+      <textarea name="Feedback" required value=""></textarea>
+    </div>
+    <input type="submit" class="button" value="Submit">
+	<br />
+	<a href="main1.html"><input type="button" class="button" value="back" </input> </a href>
+    <br />
+    </form>	
+  </body>
+</html>

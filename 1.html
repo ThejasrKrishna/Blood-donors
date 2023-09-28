@@ -1,0 +1,142 @@
+<html>
+<head>
+<link href="button.css" rel="stylesheet">
+<title></title>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color:transparent;
+  topnav:fixed;
+}
+
+.topnav a {
+  float: left;
+  border:10px;
+  color: black;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 22px;
+  flaot: left;
+border-right: 2px solid black;
+}
+
+.topnav a:hover {
+  background-color:#DC404B;
+  color:black;
+}
+
+.topnav a.active {
+  background-color:#DC404B;
+  color:white;
+}
+
+table{font-size:30pt;
+margin-left:50px;
+color:#4C0C48;
+}
+body {
+ background-image: url("k13.jpg");
+ background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:1650px;
+text-align:fixed
+
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a  href="MAIN1.html">HOME</a>
+  <a href="donars day.html">DONAR'S DAY</a>
+  <a href="tips2.html">TIPS ON BLOOD DONATING</a>
+  <a href ="wcdblood.html">WHO CAN DONATE BLOOD </a> 
+  <a  class="active" href="finddonar.html">FIND DONAR</a>
+  <a href="bloodbank.html">BLOOD BANK</a>
+   <a href="contact.html">CONTACT US</a>
+	<a href="f2.html">FEED BACK</a>
+</div>
+<form method="POST" action="donarslist.php">
+<center>
+<table>
+<tr>
+<td><label>Country</label></td>
+<td><select name="">
+<option value="India">India</option>
+</select>
+</td>
+</tr>
+<br/>
+
+<tr>
+<td><lable>State</label></td>
+<td><select name ="">
+<option value="Karanataka">Karanataka</option>
+</select>
+</td>
+</tr>
+<br/>
+
+<tr>
+<td><label>District</lable></td>
+<td><select name="City">
+<option value="Select">Select</option>
+<option value="Bagalkot">Bagalkot</option>
+<option value="Bengaluru urban">Bengaluru urban</option>
+<option value="Bengaluru rural">Bengaluru rural</option>
+<option value="Belagavi">Belagavi</option>
+<option value="Bellary">Bellary</option>
+<option value="Bidar">Bidar</option>
+<option value="Bijapura">Bijapura</option>
+<option value="Chamarajanagara">Chamarajanagara</option>
+<option value="Chikaballapur">Chikaballapur</option>
+<option value="Chikkmangaluru">Chikkmangaluru</option>
+<option value="Chitradurga">Chitradurga</option>
+<option value="Dakshina kannada">Dakshina kannada</option>
+<option value="Davanagere">Davanagere</option>
+<option value="Dharwad">Dharwad</option>
+<option value="Gadag">Gadag</option>
+<option value="Gulbarga">Gulbarga</option>
+<option value="Hassan">Hassan</option>
+<option value="Haveri">Haveri</option>
+<option value="Kodagu">Kodagu</option>
+<option value="Kolar">Kolar</option>
+<option value="Koppal">Koppal</option>
+<option value="Mandya">Mandya</option>
+<option value="Mysuru">Mysuru</option>
+<option value="Raichur">Raichur</option>
+<option value="Ramanagara">Ramanagara</option>
+<option value="Shivamogga">Shivamogga</option>
+<option value="Tumkur">Tumkur</option>
+<option value="Udupi">Udupi</option>
+<option value="Uttara kannada">Uttara kannada</option>
+<option value="Yadgiri">Yadgiri</option>
+</select>
+</td>
+</tr>
+<br/>
+
+<tr>
+<td><label>Bloodgroup</lable></td>
+<td><select name="Bloodgroup">
+<option value="Select">Select</option>
+<option value="A+ve">A+ve</option>
+<option value="A-ve">A-ve</option>
+<option value="B+ve">B+ve</option>
+<option value="B-ve">B-ve</option>
+<option value="O+ve">O+ve</option>
+<option value="O-ve">O-ve</option>
+<option value="AB+ve">AB+ve</option>
+<option value="AB-ve">AB-ve</option>
+</select>
+</td>
+</tr>
+<br/>
+</table>
+
+<input type="submit" name="submit" class="button"  value="search"></input>
+<a href="main1.html"><input type="button" class="button" value="back" > </input> </a href>
+</center>
+</form>
+</body>
+</html>
